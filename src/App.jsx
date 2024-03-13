@@ -14,10 +14,10 @@ function App() {
   let reset=()=>{setQuestionNum(0);setAnswers([])}
   return (
     <>
-    <div className="container mx-auto row mt-5">
+    <div className="container  mx-auto row mt-5">
       <h1 className="text-center">Quiz App</h1>
 
-      {questionNum< Questions.length-1 &&( <div className="border border-black shadow mx-auto col-12 col-md-6 col-lg-6 p-3 mt-3">
+      {questionNum< Questions.length-1 &&( <div className="border bg-warning border-black shadow mx-auto col-12 col-md-6 col-lg-6 p-3 mt-3">
        <h3 className='text-center mb-5 pt-3'>{Questions[questionNum].question}</h3>
       <Options onClickAns={handleNextQ} optionData={Questions[questionNum].answerOptions}/>
       </div>)}
