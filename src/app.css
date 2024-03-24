@@ -1,0 +1,57 @@
+@import "react-slideshow-image/dist/styles.css";
+li:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+li>i:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.end:hover{
+    cursor: pointer;
+    color:rgb(201, 232, 90);
+}
+.blog-img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+.feature-card{
+    overflow: hidden;
+    color: black;
+}
+
+.feature-card:hover .feature-card-icons{
+    right: 0;
+}
+.feature-card-icons{
+    top: 10%;
+    right: -38%;
+    cursor: pointer;
+    transition: 0.3s;
+    visibility: visible;
+}
+.feature-card i{padding: 5px;}
+.feature-card i:hover{
+    border-radius: 50%;
+    background-color: rgb(173, 173, 173);
+}
+#btn{background-color: black;color: aliceblue;}
+.specialProduct:hover #btn{
+    background-color: rgb(255, 157, 0);
+    cursor: pointer;
+    color: black;
+    transform:translate();
+}
+.Rlink{color: rgb(0, 0, 0);
+text-decoration: none;}
+li{
+    list-style-type: none;
+}
+.grids>span:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.847);
+}
